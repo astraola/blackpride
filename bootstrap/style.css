@@ -1,0 +1,125 @@
+
+#topNav {
+    background-color: rgb(51, 46, 121);
+    height: 50px;
+
+}
+.mimi{
+
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top:5px;
+}
+#bottomNav {
+    font-size: large;
+    font-family: georgia;
+    font-weight: bold;
+    height: 75px;
+}
+
+#bottomNav ul{
+    padding: 15px;
+}
+#bottomNav ul li a{
+    color: black;
+}
+
+#main {
+    background: linear-gradient(rgba(51, 46, 121, 0.616),rgba(57, 60, 107, 0.2)), url(/images/test-thumb3.jpg);
+    background-size: cover;
+    height: 600px;
+    padding-top: 75px;
+    z-index: 100;
+}
+
+#main .hline {
+    width: 40px;
+    height: 4px;
+    background-color: red;
+}
+
+#main button {
+    border-radius: 50px;
+    text-align: left;
+    height: 45px;
+    width: 200px;
+}
+
+#main h1{
+    color: rgb(51, 46, 121);
+    font-weight: bolder;
+}
+#lay .btn {
+    color: white;
+    background-color: rgb(51, 46, 121);
+}
+#lay h5, .bi {
+    color: rgb(51, 46, 121);
+    font-weight: bolder;
+}
+#lay .card {
+    border-radius: 20px;
+    margin:20px;
+    height: 350px;
+    color: cadetblue;
+}
+#lay .card .bi{
+    font-size: 42px;
+}
+.bb{
+    line-height: 34px;
+}
+#lay{
+    z-index: 70;
+    margin-top: -100px;
+}
+
+#care h1 {
+    color: rgb(51, 46, 121);
+    font-weight: bolder;
+}
+
+#care .btn {
+    border-radius: 30px;
+}
+
+#care p {
+    color: cadetblue;
+    font-weight: bold;
+}
+
+#counter .row {
+    background: linear-gradient(rgba(51, 46, 121, 1),rgba(51, 46, 121, 0.8)), url(/images/test-thumb3.jpg);
+    background-size: cover;
+    height: 200px;
+    align-items: center;
+}
+#counter{
+    /* z-index: 20; */
+}
+
+#counter .counter-no {
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+    align-items: center;
+}
+#care2{
+    margin-top: 50px;
+    padding-top: 50px;
+    background-color: #F5F5F5;
+    /* z-index: 70; */
+}
+
+#care2 .hline {
+    width: 40px;
+    height: 4px;
+    background-color: red;
+    margin-left: 600px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#care2 .card{
+    width: 360px;
+}

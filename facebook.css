@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+form {
+        margin-top:4%;
+        margin-right:10%;
+        background-color: rgb(238, 228, 228);
+        width:30%;
+        height:55vh;
+        border-radius:10px;
+        float:right;
+        border: 5px;
+}
+
+input {
+    display: block;
+    margin-top: 2%;
+    border: 5px;
+    border-radius: 5px;
+    width: 90%;
+    height: 55px;
+    margin-left: 5%;
+    padding-left: 3%;
+    font-size: 15px;
+    border-color: black;
+}
+
+button {
+    display:block;
+    margin-top: 4%;
+}
+
+#in {
+    border-radius: 5px;
+    height: 55px;
+    width: 90%;
+    background-color: blue;
+    color: whitesmoke;
+    font-size: bold;
+    margin-left: 5%;
+}
+
+#pass{
+    height: 55px;
+    width: 90%;
+    border-width: 2px;
+    border-right: 5px;
+    border-top: 5px;
+    border-left: 5px;
+    background-color: white;
+    margin-left: 5%;
+}
+
+#new {
+    width: 50%;
+    height: 55px;
+    background-color: green;
+    color: blanchedalmond;
+    border: 5px;
+    border-radius: 5px;
+    margin-left: 25%;
+}
+
+.pg {
+    font-size: 30px;
+    font-weight: 50px;
+}
+
+.main{
+    padding: 10%;
+    
+    margin-left: 10%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h1{
+    color: blue;
+}
+
+.page{
+    margin-top: 2%;
+    margin-left: 62%;
+}
+
