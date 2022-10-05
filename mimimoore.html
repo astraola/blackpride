@@ -9,14 +9,26 @@
     <link href="bootstrap/style.css" type="text/css" rel="stylesheet" />
     <link href="bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
     <link rel="stylesheet" href="/html.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
     <title>BLACKPRIDE</title>
 </head>
 
 <body>
-    <section class="header">
-        <nav class="navbar  navbar-expand-lg bg-dark">
+    <section class="nav">
+        <nav class="navbar fixed-top navbar-expand-lg bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand text-danger" href="#">BLACKPRIDE</a>
+                <a class="navbar-brand text-light" href="#">BLACKPRIDE</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -25,43 +37,51 @@
                     <ul class="navbar-nav">
 
                         <li class="nav-item">
-                            <a class="nav-link text-danger" href="#home">HOME</a>
+                            <a class="nav-link text-light" href="#home">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-danger" href="#about">ABOUT</a>
+                            <a class="nav-link text-light" href="#about">ABOUT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-danger" href="#service">SERVICE</a>
+                            <a class="nav-link text-light" href="#service">SERVICE</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-danger" href="#portfolio">PORTFOLIO</a>
+                            <a class="nav-link text-light" href="#portfolio">PORTFOLIO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-danger" href="#contact">CONTACT</a>
+                            <a class="nav-link text-light" href="#contact">CONTACT</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <h1 class="first-text">Trendy Natural Hair Styles</h1>
-        <p class="second-text">Professional Natural Salon</p>
     </section>
-    <section id="about">
-        <h1 class="text-center text-light pt-5">ABOUT US</h1>
-        <h2 class="text-danger fs-1 fw-1 text-center">. . .</h2>
-        <h6 class="text-center text-light pt-3">
-            Making shinny hair with a smooth texture and clean cut ends or tapered tips, hair can be straight, wavy or
-            curly,
-            blonde, back, brown, red, gray white, and its natural variations are important to our identity.
-            manipulation of normal structure of the hair shaft is epidemic and dictated by culture, fashion, and above
-            all,celebrity.
-        </h6>
+    <section id="home" class="container">
+        <div class="col-md">
+            <h1 class="first-text text-light">Trendy Natural Hair Styles</h1>
+            <p class="second-text text-light">Professional Natural Salon</p>
+        </div>
+    </section>
+    <section id="about" class="">
+        <div class="col-sm">
+            <h1 class="text-center  pt-5">ABOUT US</h1>
+            <h2 class="text-danger fs-1 fw-1 text-center">. . .</h2>
+            <h6 class="text-center  pt-3">
+                Making shinny hair with a smooth texture and clean cut ends or tapered tips, hair can be straight, wavy
+                or
+                curly,
+                blonde, back, brown, red, gray white, and its natural variations are important to our identity.
+                manipulation of normal structure of the hair shaft is epidemic and dictated by culture, fashion, and
+                above
+                all,celebrity.
+            </h6>
+        </div>
         <div class="row pt-3">
             <div class="col-4">
-                <img src="./images/hair 1.jpg" alt="">
+                <img src="./images/istockphoto-1323570831-170667a.jpg" alt="" class="about-image">
             </div>
             <div class="col-8">
-                <p class="text-light">Making shinny hair with a smooth texture and clean cut ends or tapered tips, hair
+                <p class="">Making shinny hair with a smooth texture and clean cut ends or tapered tips, hair
                     can be straight, wavy or
                     curly,
                     blonde, back, brown, red, gray white, and its natural variations are important to our identity.
@@ -97,7 +117,7 @@
                     Hair
                     products
                 </p>
-                <dl class=" text-light">
+                <dl class="">
                     <li>
                         afflictions of the scalp as well as age-related phenomena such as graying and androgenetic
                         alopecia. Hair
@@ -132,131 +152,182 @@
             </div>
         </div>
     </section>
-    <section id="service">
-        <h1 class="pt-5 text-center ">OUR SERVICES</h1>
-        <h2 class="text-danger fs-1 fw-1 text-center">. . .</h2>
-        <h5 class="text-center">Creative technology company providing key digital services for everyone</h5>
+    <section id="service" class="">
+        <div class="col-md">
+            <h1 class="pt-5 text-center ">OUR SERVICES</h1>
+            <h2 class="text-danger fs-1 fw-1 text-center">. . .</h2>
+            <h5 class="text-center">Creative technology company providing key digital services for everyone</h5>
+        </div>
         <div class="row pt-3">
             <div class="col-4">
-                <img src="./images/hair 3.jpg" alt="" class="first-image">
-                <h2 class="text-light">HOME INTERIOR</h2>
-                <P class="text-light">Achieve virtually any look and layout design within one hair type</P>
+                <img src="./images/braid.jpg" alt="" class="first-image">
+                <h2 class="">BRAIDS</h2>
+                <P class="">Making hair grow by protercting your new growth from breakage</P>
             </div>
             <div class="col-4">
-                <img src="./images/hair 1.jpg" alt="" class="">
-                <h2 class="text-light">CUSTOM DESIGN</h2>
-                <p class="text-light">We strive to figure out ways to help your audience grow through all platforms</p>
+                <img src="./images/wash.jpg" alt="" class="wash-image">
+                <h2 class="">WASHING</h2>
+                <p class="">We strive to figure out ways to help your har grow without having any dandruff</p>
             </div>
             <div class="col-4">
-                <img src="./images/hair 3.jpg" alt="" class="first-image">
-                <h2 class="text-light">BUSINESS INTERIOR</h2>
-                <p class="text-light">Find what you need in one template and combine features at all</p>
+                <img src="./images/concrow.jpg" alt="" class="first-image">
+                <h2 class="">CONCROWS</h2>
+                <p class="">Best concrows hairstyles with painless experience</p>
             </div>
         </div>
         <div class="row p-3">
             <div class="col-4">
-                <img src="./images/hair 1.jpg" alt="" class="">
-                <h2 class="text-light">SECURITY SETUP</h2>
-                <p class="text-light">Easy and fast adjustments of elements are possible</p>
+                <img src="./images/kidsbraids.jpg" alt="" class="kids-image">
+                <h2 class="">KIDS HAIRCARE</h2>
+                <p class="">Giving your kids the best hair care and painless hair session</p>
             </div>
             <div class="col-4">
-                <img src="./images/hair 3.jpg" alt="" class="first-image">
-                <h2 class="text-light">CUSTOM PAINT</h2>
-                <p class="text-light">Our react powered app will save you torns of time and cost in your projects</p>
+                <img src="./images/hair11.jpg" alt="" class="first-image">
+                <h2 class="">STYLING</h2>
+                <p class="">We style natural hair to the best beauty</p>
             </div>
             <div class="col-4">
-                <img src="./images/hair 1.jpg" alt="" class="">
-                <h2 class="text-light">HOME DECOR</h2>
-                <p class="text-light">Power your app with angular components for no cost within one stop solution.</p>
+                <img src="./images/hair7.jpg" alt="" class="trans-image">
+                <h2 class="">HAIR TRANSITION</h2>
+                <p class="">making your hair chemical free</p>
             </div>
     </section>
-    <section id="portfolio">
-        <h1 class="text-center pt-3">PORTFOLIO</h1>
-        <div class="row">
-            <div class="col-3">
-                <img src="./images/hair 9.jpg" alt="image" class="image">
-            </div>
-            <div class="col-3">
-                <img src="./images/hair8.jpg" alt="image" class="image">
-            </div>
-            <div class="col-3">
-                <img src="./images/hair10.jpg" alt="image" class="image">
-            </div>
-            <div class="col-3">
-                <img src="./images/hair6.jpg" alt="image" class="image">
-            </div>
+    <section id="portfolio" class="container">
+        <div>
+            <h1 class="text-center pt-3">PORTFOLIO</h1>
         </div>
-        <div class="row">
-            <div class="col-3">
-                <img src="./images/hair8.jpg" alt="image" class="image">
-            </div>
-            <div class="col-3">
-                <img src="./images/hair11.jpg" alt="image" class="image">
-            </div>
-            <div class="col-3">
-                <img src="./images/hair7.jpg" alt="image" class="image">
-            </div>
-            <div class="col-3">
-                <img src="./images/hair10.jpg" alt="image" class="image">
-            </div>
-        </div>
-        </div>
-    </section>
-    <section id="contact">
-        <h1 class="text-center text-light pt-5">CONTACT US</h1>
-        <div class="row pt-3">
-            <div class="col-6-md">
-                <form action="">
-                    <form>
-                        <div class="row">
-                            <div class="col">
-                                <input type="text" class="form-control text-light" placeholder="First name"
-                                    aria-label="First name">
-                            </div>
-                            <div class="col">
-                                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-                            </div>
+        <div class="col-md">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="./images/braid.jpg" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>styles to choose from</h5>
+                            <p>Natural hair beauty</p>
                         </div>
-                        <fieldset class="row mb-3">
-                            <legend class="col-form-label col-sm-2 pt-0 text-light">Sex</legend>
-                            <div class="col-sm-10">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1"
-                                        value="option1" checked>
-                                    <label class="form-check-label text-light" for="gridRadios1">
-                                        Female
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
-                                        value="option2">
-                                    <label class="form-check-label text-light" for="gridRadios2">
-                                        Male
-                                    </label>
-                                </div>
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label text-light">Email
-                                    address</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1"
-                                    placeholder="name@example.com">
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleFormControlTextarea1" class="form-label text-light">Example
-                                    textarea</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            </div>
-                            <button type="button" class="btn btn-dark justify-content-center">Submit</button>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./images/concrow.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./images/kidsbraids.jpg" alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+        </div>
+    </section>
+    <section id="contact" class="">
+        <h1 class="text-center text-light pt-5 justify-content-center">CONTACT US</h1>
+        <div class="row pt-3">
+            <div class="col-6">
+                <div class="">
+                    <form action="signup.html" method="post" id="signup">
+                        <h1 class="m-5">Sign Up</h1>
+                        <div class="field m-3">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your fullname" />
+                            <small></small>
+                        </div>
+                        <div class="field m-3">
+                            <label for="email">Email:</label>
+                            <input type="text" id="email" name="email" placeholder="Enter your email address" />
+                            <small></small>
+                        </div>
+                        <div class="field m-3">
+                            <button type="submit" class="full">Subscribe</button>
+                        </div>
                     </form>
-                </form>
+                </div>            
             </div>
             <div class="col-6">
-                <img src="./images/hair 4.jpg" alt="">
+                <img src="./images/kidsbraids.jpg" alt="" class="">
             </div>
+
         </div>
     </section>
+<section class="footer">
+    <div class="">
+        <p class="text-center fs-1 fw-1 p-5"> www.blackpride.com © 2022</p>
+    </div>
+</section>
+    <script>
+
+       // show a message with a type of the input
+function showMessage(input, message, type) {
+	// get the small element and set the message
+	const msg = input.parentNode.querySelector("small");
+	msg.innerText = message;
+	// update the class for the input
+	input.className = type ? "success" : "error";
+	return type;
+}
+
+function showError(input, message) {
+	return showMessage(input, message, false);
+}
+
+function showSuccess(input) {
+	return showMessage(input, "", true);
+}
+
+function hasValue(input, message) {
+	if (input.value.trim() === "") {
+		return showError(input, message);
+	}
+	return showSuccess(input);
+}
+
+function validateEmail(input, requiredMsg, invalidMsg) {
+	// check if the value is not empty
+	if (!hasValue(input, requiredMsg)) {
+		return false;
+	}
+	// validate email format
+	const emailRegex =
+		/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+	const email = input.value.trim();
+	if (!emailRegex.test(email)) {
+		return showError(input, invalidMsg);
+	}
+	return true;
+}
+
+const form = document.querySelector("#signup"); 
+
+const NAME_REQUIRED = "Please enter your name";
+const EMAIL_REQUIRED = "Please enter your email";
+const EMAIL_INVALID = "Please enter a correct email address format";
+
+form.addEventListener("submit", function (event) {
+	// stop form submission
+	event.preventDefault();
+
+	// validate the form
+	let nameValid = hasValue(form.elements["name"], NAME_REQUIRED);
+	let emailValid = validateEmail(form.elements["email"], EMAIL_REQUIRED, EMAIL_INVALID);
+	// if valid, submit the form.
+	if (nameValid && emailValid) {
+		alert("Demo only. No form was posted.");
+	}
+});
 
 
+    </script>
 
 
 </body>
